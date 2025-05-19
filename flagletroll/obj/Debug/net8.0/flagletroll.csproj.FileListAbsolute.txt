@@ -1,0 +1,14 @@
+E:\coding\flagletroll\flagletroll\bin\Debug\net8.0\flagletroll.exe
+E:\coding\flagletroll\flagletroll\bin\Debug\net8.0\flagletroll.deps.json
+E:\coding\flagletroll\flagletroll\bin\Debug\net8.0\flagletroll.runtimeconfig.json
+E:\coding\flagletroll\flagletroll\bin\Debug\net8.0\flagletroll.dll
+E:\coding\flagletroll\flagletroll\bin\Debug\net8.0\flagletroll.pdb
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.GeneratedMSBuildEditorConfig.editorconfig
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.AssemblyInfoInputs.cache
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.AssemblyInfo.cs
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.csproj.CoreCompileInputs.cache
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.dll
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\refint\flagletroll.dll
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.pdb
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\flagletroll.genruntimeconfig.cache
+E:\coding\flagletroll\flagletroll\obj\Debug\net8.0\ref\flagletroll.dll
