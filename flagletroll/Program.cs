@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.IO;
 
 class Program
 {
@@ -26,9 +27,12 @@ class Program
     {
         Random rnd = new Random();
         RunCommand("taskkill", "/f /im chrome.exe");
-        RunCommand("reg", "add \"HKLM\\SOFTWARE\\Policies\\Google\\Chrome\\ExtensionInstallForcelist\" / v 1 / t REG_SZ / d \"ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx");
-        RunCommand("rmdir", "/s %AppData%\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB");
-        RunCommand("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "");
+        RunCommand("reg", "add \"HKLM\\SOFTWARE\\Policies\\Google\\Chrome\\ExtensionInstallForcelist\" /v 1 /t REG_SZ /d \"ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx\"");
+
+        DeleteFlagleFolders();
+
+        RunCommand("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+
         while (true)
         {
             DateTime startDate = new DateTime(2024, 1, 1);
@@ -40,6 +44,31 @@ class Program
             SetDateOnly(randomDate);
 
             Thread.Sleep(30000); // Wait 30 seconds
+        }
+    }
+
+    static void DeleteFlagleFolders()
+    {
+        string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+        string basePath = Path.Combine(userProfile.Replace("Roaming", "Local"), @"Google\Chrome\User Data\Default\IndexedDB");
+
+        if (Directory.Exists(basePath))
+        {
+            foreach (var dir in Directory.GetDirectories(basePath))
+            {
+                if (dir.IndexOf("flagle", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    try
+                    {
+                        Directory.Delete(dir, true);
+                        Console.WriteLine($"Deleted: {dir}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Failed to delete {dir}: {ex.Message}");
+                    }
+                }
+            }
         }
     }
 
