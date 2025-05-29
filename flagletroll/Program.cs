@@ -27,11 +27,11 @@ class Program
     {
         Random rnd = new Random();
         RunCommand("taskkill", "/f /im chrome.exe");
-        RunCommand("reg", "add \"HKLM\\SOFTWARE\\Policies\\Google\\Chrome\\ExtensionInstallForcelist\" /v 1 /t REG_SZ /d \"ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx\"");
+        RunCommand("reg", "add \"HKLM\\SOFTWARE\\Policies\\Google\\Chrome\\ExtensionInstallForcelist\" /v 1 /t REG_SZ /d \"ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx\" /f");
 
         DeleteFlagleFolders();
 
-        RunCommand("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+        RunCommand("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "");
 
         while (true)
         {

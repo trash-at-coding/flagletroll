@@ -7,16 +7,19 @@
       "RelativeMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|solutionrelative:flagletroll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|e:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|solutionrelative:flagletroll\\flagletroll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|e:\\coding\\flagletroll\\flagletroll\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|solutionrelative:flagletroll\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|e:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|solutionrelative:flagletroll\\flagletroll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|e:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{80C980BE-7726-406C-8C60-47650481E3A6}|flagletroll\\flagletroll.csproj|solutionrelative:flagletroll\\flagletroll.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +29,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAAKQAAAAAAAAAAAD4v68AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-29T21:42:37.75Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -41,19 +58,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "flagletroll.csproj",
               "DocumentMoniker": "E:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj",
               "RelativeDocumentMoniker": "flagletroll\\flagletroll.csproj",
               "ToolTip": "E:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj",
               "RelativeToolTip": "flagletroll\\flagletroll.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-19T02:58:41.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "app.manifest",
               "DocumentMoniker": "E:\\coding\\flagletroll\\flagletroll\\app.manifest",
               "RelativeDocumentMoniker": "flagletroll\\app.manifest",
@@ -71,14 +88,10 @@
               "RelativeDocumentMoniker": "flagletroll\\Program.cs",
               "ToolTip": "E:\\coding\\flagletroll\\flagletroll\\Program.cs",
               "RelativeToolTip": "flagletroll\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T00:18:15.077Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
