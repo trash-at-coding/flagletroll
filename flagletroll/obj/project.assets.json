@@ -9,7 +9,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sudoAnthony\\.nuget\\packages\\": {},
+    "C:\\Users\\arnze\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -18,14 +18,14 @@
       "projectUniqueName": "E:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj",
       "projectName": "flagletroll",
       "projectPath": "E:\\coding\\flagletroll\\flagletroll\\flagletroll.csproj",
-      "packagesPath": "C:\\Users\\sudoAnthony\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\arnze\\.nuget\\packages\\",
       "outputPath": "E:\\coding\\flagletroll\\flagletroll\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sudoAnthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arnze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

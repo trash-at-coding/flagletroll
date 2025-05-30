@@ -181,6 +181,7 @@ E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\createdump.exe
 E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\hostfxr.dll
 E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\hostpolicy.dll
 E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\mscordaccore.dll
+E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\mscordaccore_amd64_amd64_8.0.1625.21506.dll
 E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\mscordbi.dll
 E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\mscorrc.dll
 E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\msquic.dll
@@ -194,4 +195,3 @@ E:\coding\flagletroll\flagletroll\obj\Release\net8.0\win-x64\refint\flagletroll.
 E:\coding\flagletroll\flagletroll\obj\Release\net8.0\win-x64\flagletroll.pdb
 E:\coding\flagletroll\flagletroll\obj\Release\net8.0\win-x64\flagletroll.genruntimeconfig.cache
 E:\coding\flagletroll\flagletroll\obj\Release\net8.0\win-x64\ref\flagletroll.dll
-E:\coding\flagletroll\flagletroll\bin\Release\net8.0\win-x64\mscordaccore_amd64_amd64_8.0.1625.21506.dll
